@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Extension Builder Mockup</title>
+
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="library/extjs/resources/css/ext-all.css" type="text/css" />
+		<link rel="stylesheet" href="library/jquery-ui/vader/jquery-ui-1.8.17.custom.css" type="text/css" />
+		<link rel="stylesheet" href="library/dynatree/ui.dynatree.css" type="text/css" />
+	</head>
+
+	<body>
+		<script type="text/x-handlebars">
+			{{#view App.ToolBar}}{{/view}}
+			{{#view App.TabBar}}{{/view}}
+		</script>
+
+		<script src="library/jquery.min.js"></script>
+		<script src="library/jquery-ui/jquery-ui.min.js"></script>
+		<script src="library/dynatree/jquery.dynatree.js"></script>
+		<script src="library/extjs/adapter/jquery/ext-jquery-adapter.js"></script>
+		<script src="library/extjs/ext-all.js"></script>
+		<script src="library/ember/ember.js"></script>
+		<script src="library/ember-data/ember-data.js"></script>
+		<script src="app.js"></script>
+		<script src="app/toolbar.js"></script>
+		<script src="app/tabbar.js"></script>
+		<script src="app/configurator.js"></script>
+		<script src="app/modeller.js"></script>
+		<script src="data/model/author.js"></script>
+		<script src="data/model/extension.js"></script>
+		<script src="data/store.js"></script>
+
+	</body>
+</html>
